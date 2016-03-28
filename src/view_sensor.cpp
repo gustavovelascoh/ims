@@ -3,9 +3,9 @@
 #include <string>
 
 #include "sensor.h"
+
 using namespace cv;
 using namespace std;
-
 
 
 int main(int ac, char** av){
@@ -26,5 +26,4 @@ int main(int ac, char** av){
 	fs["Sensor"] >> sensor;
 
 	cout << "MyData = " << endl << sensor << endl << endl;
-
 }
